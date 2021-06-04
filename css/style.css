@@ -1,10 +1,80 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* BODY */
+
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
 }
 
-body{
+/* HEADER */
+
+header {
+    color: white;
+}
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.top-bar {
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    background-color: rgb(37, 94, 233);
+}
+
+.main-menu {
+    text-align: center;
+}
+
+.top-bar .main-menu li, .top-bar .main-menu li a {
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.top-bar .main-menu li a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    vertical-align: middle;
+}
+
+.col div a {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.col div a:hover {
+    text-decoration: underline;
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+    position: relative;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+
+.hero{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+
+.hero h1{
+    font-size: 60px;
+    line-height: 150px;
 }
