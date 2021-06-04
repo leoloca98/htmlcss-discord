@@ -2,7 +2,7 @@
 
 body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -49,6 +49,7 @@ header {
     padding: 10px 15px;
     border-radius: 20px;
     color: black;
+    font-size: 12px;
     text-decoration: none;
 }
 
@@ -68,13 +69,32 @@ header {
 }
 
 .hero{
+    height: 400px;
+    width: 40%;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -90%);
+    transform: translate(-50%, -60%);
 }
 
 .hero h1{
     font-size: 60px;
     line-height: 150px;
+}
+
+.hero article>p{
+    line-height: 30px;
+}
+
+.hero nav{
+    margin-top: 45px;
+}
+
+.hero a {
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.hero a:hover{
+    text-decoration: underline;
 }

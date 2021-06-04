@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="./img/discord-logo.png">
     <link rel="stylesheet" href="./css/utility.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -14,12 +17,12 @@
 <body>
     <div id="Home"></div>
     <!-- Header -->
-    <header>
+    <header class="white">
         <!-- Top bar menu Layout-->
         <div class="top-bar ">
             <div class="container clearfix">
                 <!-- Left Col -->
-                <div class="col w-20 f-left center">
+                <div class="col w-20 f-left">
                     <picture>
                         <a href="#Home"><img id="logo" src="./img/logo.svg" alt="Discord Logo"></a>
                     </picture>
@@ -28,16 +31,16 @@
                 <div class="col w-60 f-left">
                     <nav class="main-menu">
                         <ul>
-                            <li><a href="#Home">Scarica</a></li>
-                            <li><a href="#Home">Perchè Discord</a></li>
-                            <li><a href="#Home">Nitro</a></li>
-                            <li><a href="#Home">Sicurezza</a></li>
-                            <li><a href="#Home">Assistenza</a></li>
+                            <li><a class="white" href="#Home">Scarica</a></li>
+                            <li><a class="white" href="#Home">Perchè Discord</a></li>
+                            <li><a class="white" href="#Home">Nitro</a></li>
+                            <li><a class="white" href="#Home">Sicurezza</a></li>
+                            <li><a class="white" href="#Home">Assistenza</a></li>
                         </ul>
                     </nav>
                 </div>
                 <!-- Right Col -->
-                <div class="col w-20 f-left">
+                <div class="col w-20 f-left right">
                     <div>
                         <a href="#Home">Accedi</a>
                     </div>
@@ -50,14 +53,18 @@
             <section class="hero center">
                 <article>
                     <h1>Il tuo posto per parlare</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, explicabo aut laudantium
-                        totam rerum voluptatibus fugit quibusdam sint error excepturi provident beatae ratione a
-                        consequuntur voluptate corrupti, possimus dolores quidem.</p>
+                    <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale o
+                        semplicemente di un piccolo gruppo di amiic che vuole passare il tempo assieme, Discord rende
+                        più facile chiaccherare ogni giorno e ritrovarsi più spesso.
+                    </p>
                 </article>
+                <nav>
+                    <a class="btn btn-big btn-w black" href="#Home"><i class="fas fa-long-arrow-alt-down"></i> Scarica
+                        per Mac</a>
+                    <a class="btn btn-big btn-da white" href="#Home">Apri Discord nel tuo browser</a>
+                </nav>
             </section>
         </div>
-
-
     </header>
 
 </body>
