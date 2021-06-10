@@ -73,6 +73,10 @@ body {
     padding: 18px 30px;
 }
 
+.btn-mid {
+    padding: 10px 15px;
+}
+
 .mb-100 {
     margin-bottom: 100px;
 }
@@ -105,6 +109,10 @@ body {
 
 .size-19 {
     font-size: 19px;
+}
+
+.size-30 {
+    font-size: 30px;
 }
 
 .size-45 {
@@ -345,10 +353,6 @@ header {
     height: 800px;
 }
 
-.down-btn>h3 {
-    font-size: 30px;
-}
-
 .down-btn>a {
     text-decoration: none;
 }
@@ -367,20 +371,30 @@ footer {
 .footer-menu {
     height: 52.5vh;
     width: 100%;
+    padding-top: 80px;
     border-bottom: 1px solid rgb(142, 161, 225);
 }
 
 .footer-menu .social {
     height: 100%;
+    padding-right: 180px;
+}
+
+.footer-menu .social img {
+    height: 15px;
+    width: auto;
+}
+
+.fa-chevron-down {
+    font-size: 10px;
 }
 
 .footer-menu .nav {
     height: 100%;
 }
 
-.footer-menu .nav .footer-col {
+.footer-menu .footer-col {
     height: 100%;
-    padding-top: 80px;
 }
 
 .footer-col ul, .footer-col a {
@@ -393,7 +407,22 @@ footer {
     line-height: 32px;
 }
 
+.fab {
+    margin-right: 30px;
+    margin-top: 25px;
+    color: white;
+    font-size: 20px;
+}
+
 .footer-signup {
     height: calc(70vh - 52.5vh);
     width: 100%;
+}
+
+.footer-signup .signup-sx {
+    padding-top: 40px;
+}
+
+.footer-signup .signup-dx {
+    padding-top: 40px;
 }
