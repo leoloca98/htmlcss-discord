@@ -19,13 +19,21 @@ body {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
 /* *************** UTILS **************** */
 
 /* Width */
+
+.w-75 {
+    width: 75%;
+}
+
+.w-65 {
+    width: 65%;
+}
 
 .w-60 {
     width: 60%;
@@ -37,6 +45,14 @@ body {
 
 .w-40 {
     width: 40%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-25 {
+    width: 25%;
 }
 
 .w-20 {
@@ -133,6 +149,10 @@ body {
 
 .dark {
     color: rgb(35, 39, 42);
+}
+
+.blue {
+    color: rgb(142, 161, 225)
 }
 
 /* ************** HEADER *************** */
@@ -310,7 +330,6 @@ header {
 .down-layout {
     height: 150vh;
     width: 100%;
-    border: 1px solid black;
 }
 
 .down-title {
@@ -342,5 +361,39 @@ header {
 
 footer {
     height: 70vh;
+    width: 100%;
+}
+
+.footer-menu {
+    height: 52.5vh;
+    width: 100%;
+    border-bottom: 1px solid rgb(142, 161, 225);
+}
+
+.footer-menu .social {
+    height: 100%;
+}
+
+.footer-menu .nav {
+    height: 100%;
+}
+
+.footer-menu .nav .footer-col {
+    height: 100%;
+    padding-top: 80px;
+}
+
+.footer-col ul, .footer-col a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-col li {
+    line-height: 32px;
+}
+
+.footer-signup {
+    height: calc(70vh - 52.5vh);
     width: 100%;
 }
