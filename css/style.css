@@ -1,4 +1,10 @@
-/* BODY */
+/* ******************** GENERICS **************** */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -6,15 +12,128 @@ body {
     font-weight: 600;
 }
 
-/* HEADER */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
-header {
+.container{
+    margin: 0 auto;
+}
+
+.container-small {
+    max-width: 1200px;
+}
+
+.container-big{
+    max-width: 1400px;
+}
+
+/* *************** UTILS **************** */
+
+/* Width */
+
+.w-60 {
+    width: 60%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+/* Layout */
+
+.f-left {
+    float: left;
+}
+
+.btn {
+    border-radius: 30px;
+}
+
+.btn-big {
+    padding: 18px 30px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+/* Text & Font */
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.size-19 {
+    font-size: 19px;
+}
+
+.size-45 {
+    font-size: 45px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+/* BackGround-Colors */
+
+.btn-w {
+    background-color: white;
+}
+
+.btn-da {
+    background-color: rgb(35, 39, 42);
+}
+
+/* Colors */
+
+.white {
     color: white;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+.black {
+    color: black;
+}
+
+.dark {
+    color: rgb(35, 39, 42);
+}
+
+/* ************** HEADER *************** */
+
+header {
+    color: white;
 }
 
 .top-bar {
@@ -44,7 +163,7 @@ header {
     vertical-align: middle;
 }
 
-.col div a {
+.col.w-20 div a {
     background-color: white;
     padding: 10px 15px;
     border-radius: 20px;
@@ -57,7 +176,7 @@ header {
     text-decoration: underline;
 }
 
-/* JUMBOTRON */
+/* **************** JUMBOTRON ****************** */
 
 .jumbotron {
     position: relative;
@@ -99,16 +218,28 @@ header {
     text-decoration: underline;
 }
 
-.first {
+/* ********** IMG + TEXT *********** */
+
+#study-group {
     height: 100vh;
     width: 100%;
 }
 
-.first>.col {
-    float: left;
+.study-layout {
+    height: 70%;
+    margin-top: 200px;
+    border: 2px solid black;
+}
+
+.study-col {
     height: 100%;
     border: 2px solid black;
 }
-.first .col>img{
-    text-align: left;
-} 
+
+.study-col-dx {
+    padding: 30px 160px 0px;
+}
+
+.study-col-dx p{
+    line-height: 35px;
+}
