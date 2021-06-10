@@ -19,15 +19,8 @@ body {
 }
 
 .container {
-    margin: 0 auto;
-}
-
-.container-small {
-    max-width: 1200px;
-}
-
-.container-big {
     max-width: 1400px;
+    margin: 0 auto;
 }
 
 /* *************** UTILS **************** */
@@ -112,12 +105,20 @@ body {
     background-color: white;
 }
 
+.btn-azu {
+    background-color: rgb(142, 161, 225);
+}
+
 .btn-da {
     background-color: rgb(35, 39, 42);
 }
 
 .cream {
     background-color: rgb(246, 246, 246);
+}
+
+.bg-dark {
+    background-color: rgb(35, 39, 42)
 }
 
 /* Colors */
@@ -299,9 +300,47 @@ header {
     line-height: 30px;
 }
 
-/* *********************** JUST CHILLING ******************** */
+/* *********************** DOWNLOAD ******************** */
 
 #download {
-    height: 110vh;
+    height: 150vh;
+    width: 100%;
+}
+
+.down-layout {
+    height: 150vh;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.down-title {
+    padding-top: 150px;
+}
+
+.down-title p {
+    padding: 0px 190px;
+    line-height: 30px;
+}
+
+.down-img img {
+    height: 800px;
+}
+
+.down-btn>h3 {
+    font-size: 30px;
+}
+
+.down-btn>a {
+    text-decoration: none;
+}
+
+.down-btn>a:hover {
+    text-decoration: underline;
+}
+
+/* ************************ FOOTER ******************** */
+
+footer {
+    height: 70vh;
     width: 100%;
 }
